@@ -30,7 +30,11 @@ class Solution {
                 end--;
             }
 
-            else if(nums[beg] < nums[mid] || (nums[beg] == nums[mid] && nums[mid] > nums[end])){
+            // else if(nums[beg] < nums[mid] || (nums[beg] == nums[mid] && nums[mid] > nums[end])){
+            //     beg = mid + 1;
+            // }
+            
+            else if(nums[beg] <= nums[mid] && nums[mid] >= nums[end]){
                 beg = mid + 1;
             }
 
