@@ -1,41 +1,22 @@
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
-        int a = 1, b = nums.length;
-        int sum = 0, lastAns = 0;
-        boolean found = false;
+        int sum = nums[0], ans = Integer.MAX_VALUE, i = 0, j = 0;
 
-        while(a<=b){
-            int mid = a + (b - a) / 2, i = 0,  j = 0;
-            found = false;
-
-            sum = 0;
-
-            while(j<nums.length){
-                sum += nums[j];
-
-                if(j - i + 1 == mid){
-                    if(sum >= target){
-                        found = true;
-                        break;
-                    }
-                    
-                    sum -= nums[i];
+        while (j < nums.length && i <= j) {
+            if (sum >= target) {
+                sum -= nums[i];
+                ans = ans > j - i + 1 ? j - i + 1 : ans;
+                i++;
+            }
+            else {
+                if (j < nums.length - 1) {
+                    sum += nums[++j];
+                } else
                     i++;
-                }
-                j++;
-            }
-
-            if(found){
-                b = mid-1;
-                lastAns = mid;
-            }
-            
-            else{
-                a = mid+1;
             }
 
         }
 
-        return lastAns;
+        return ans < Integer.MAX_VALUE ? ans : 0;
     }
 }
