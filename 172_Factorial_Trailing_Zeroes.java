@@ -1,12 +1,15 @@
 class Solution {
     public int trailingZeroes(int n) {
-        return countZero(n, 5);
+
+        int count = 0;
+        int factor = 5;
+
+        while (factor <= n) {
+            count += n / factor;
+            factor *= 5;
+        }
+
+        return count;
     }
 
-    static int countZero(int n, int factor){
-        if(factor > n)
-            return 0;
-
-        return n / factor + countZero(n, factor * 5);
-    }
 }
