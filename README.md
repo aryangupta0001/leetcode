@@ -10,11 +10,11 @@ the problem tracker **sorted in increasing order of question number**.
 
 | Ques No. | Ques | Difficulty Level | Solution |
 |---------|------|------------------|----------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [View](./Arrays/TwoSum.java) |
-| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [View](./Stack/ValidParentheses.java) |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [View](./Arrays/BestTimeToBuySell.java) |
-| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [View](./BinarySearch/BinarySearch.java) |
-| 1155 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | Medium | [View](./DynamicProgramming/DiceRollsTargetSum.java) |
+| 1 | <a href="https://leetcode.com/problems/two-sum/" target="_blank">Two Sum</a> | Easy | [View](./Arrays/TwoSum.java) |
+| 20 | <a href="https://leetcode.com/problems/valid-parentheses/" target="_blank">Valid Parentheses</a> | Easy | [View](./Stack/ValidParentheses.java) |
+| 121 | <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/" target="_blank">Best Time to Buy and Sell Stock</a> | Easy | [View](./Arrays/BestTimeToBuySell.java) |
+| 704 | <a href="https://leetcode.com/problems/binary-search/" target="_blank">Binary Search</a> | Easy | [View](./BinarySearch/BinarySearch.java) |
+| 1155 | <a href="https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/" target="_blank">Number of Dice Rolls With Target Sum</a> | Medium | [View](./DynamicProgramming/DiceRollsTargetSum.java) |
 
 ---
 
