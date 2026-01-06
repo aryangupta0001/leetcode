@@ -23,8 +23,8 @@ the problem tracker **sorted in increasing order of question number**.
 ---
 
 ## 🔗 Profiles
-- LeetCode: [https://leetcode.com/your-username](https://leetcode.com/u/aryangupta0001/)
-- GitHub: [https://github.com/your-username](https://github.com/aryangupta0001)
+- LeetCode: [https://leetcode.com/aryangupta0001](https://leetcode.com/u/aryangupta0001/)
+- GitHub: [https://github.com/aryangupta0001](https://github.com/aryangupta0001)
 
 ---
 
