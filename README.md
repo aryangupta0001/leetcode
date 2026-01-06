@@ -15,6 +15,7 @@ the problem tracker **sorted in increasing order of question number**.
 | 153 | <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/" target="_blank">Find Minimum in Rotated Sorted Array</a> | Medium | [View](./153_Find_Minimum_in_Rotated_Sorted_Array.java) |
 | 154 | <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/" target="_blank">Find Minimum in Rotated Sorted Array II</a> | Hard | [View](./154_Find_Minimu_in_Rotated_Sorted_Array_II.java) |
 | 162 | <a href="https://leetcode.com/problems/find-peak-element/description/" target="_blank">Find Peak Element</a> | Medium | [View](./162_Find_Peak_Element.java) |
+| 167 | <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" target="_blank">Two Sum II - Input Array Is Sorted</a> | Medium | [View](./167_Two_Sum_II_-_Input_Array_Is_Sorted.java) |
 | 1095 | <a href="https://leetcode.com/problems/find-in-mountain-array/" target="_blank">Find in Mountain Array</a> | Hard | [View](./1095_Find_in_Mountain_Array.java) |
 | 1155 | <a href="https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/" target="_blank">Number of Dice Rolls With Target Sum</a> | Medium | [View](./1155_Number_of_Dice_Rolls_With_Target_Sum.java) |
 | 1295 | <a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits/" target="_blank">Find Numbers with Even Number of Digits</a> | Easy | [View](./1295_Find_Numbers_with_Even_Number_of_Digits.java) |
