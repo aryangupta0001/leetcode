@@ -24,30 +24,13 @@ class Solution {
         if (r == grid.length - 1 && c == grid[r].length - 1)
             return 1;
 
-        if (r == grid.length - 1) {
+        if (c < grid[r].length - 1)
             if (grid[r][c + 1] == 0)
                 path += totalPaths(grid, r, c + 1, dp);
 
-            else
-                return 0;
-        }
-
-        else if (c == grid[r].length - 1) {
+        if (r < grid.length - 1)
             if (grid[r + 1][c] == 0)
                 path += totalPaths(grid, r + 1, c, dp);
-
-            else
-                return 0;
-        }
-
-        else {
-            if (grid[r][c + 1] == 0)
-                path += totalPaths(grid, r, c + 1, dp);
-
-            if (grid[r + 1][c] == 0)
-                path += totalPaths(grid, r + 1, c, dp);
-        }
-
         
         return dp[r][c] = path;
     }
