@@ -20,6 +20,7 @@ the problem tracker **sorted in increasing order of question number**.
 | 167 | <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/" target="_blank">Two Sum II - Input Array Is Sorted</a> | Medium | [View](./167_Two_Sum_II_-_Input_Array_Is_Sorted.java) |
 | 172 | <a href="https://leetcode.com/problems/factorial-trailing-zeroes/" target="_blank">Factorial Trailing Zeroes</a> | Medium | [View](./172_Factorial_Trailing_Zeroes.java) |
 | 209 | <a href="https://leetcode.com/problems/minimum-size-subarray-sum/" target="_blank">Minimum Size Subarray Sum</a> | Medium | [View](./209_Minimum_Size_Subarray_Sum.java) |
+| 240 | <a href="https://leetcode.com/problems/search-a-2d-matrix-ii/description/" target="_blank">Search a 2D Matrix II</a> | Medium | [View](./240_Search_a_2D_Matrix_II.java) |
 | 1095 | <a href="https://leetcode.com/problems/find-in-mountain-array/" target="_blank">Find in Mountain Array</a> | Hard | [View](./1095_Find_in_Mountain_Array.java) |
 | 1155 | <a href="https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/" target="_blank">Number of Dice Rolls With Target Sum</a> | Medium | [View](./1155_Number_of_Dice_Rolls_With_Target_Sum.java) |
 | 1295 | <a href="https://leetcode.com/problems/find-numbers-with-even-number-of-digits/" target="_blank">Find Numbers with Even Number of Digits</a> | Easy | [View](./1295_Find_Numbers_with_Even_Number_of_Digits.java) |
