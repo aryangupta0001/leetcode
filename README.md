@@ -13,7 +13,7 @@ the problem tracker **sorted in increasing order of question number**.
 | 1 | <a href="https://leetcode.com/problems/two-sum/" target="_blank">Two Sum</a> | Medium | [View](./1_Two_Sum.java) |
 | 2 | <a href="https://leetcode.com/problems/add-two-numbers" target="_blank">Add Two Numbers</a> | Medium | [View](./2_Add_Two_Numbers.c) |
 | 3 | <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/description/" target="_blank">Longest Substring Without Repeating Characters</a> | Medium | [View](./3_LongestSubstringWithoutRepeatingCharacters.java) |
-| 4 | <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank">4. Median of Two Sorted Arrays</a> | Medium | [View](./4_MedianOfTwoSortedArrays.java) |
+| 4 | <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/" target="_blank">4. Median of Two Sorted Arrays</a> | Hard | [View](./4_MedianOfTwoSortedArrays.java) |
 | 5 | <a href="https://leetcode.com/problems/longest-palindromic-substring" target="_blank">Longest Palindromic Substring</a> | Medium | [View](./5_LongestPalindromicSubstring.java) |
 | 6 | <a href="https://leetcode.com/problems/zigzag-conversion" target="_blank">Zigzag Conversion</a> | Medium | [View](./6_ZigzagConversion.java) |
 | 7 | <a href="https://leetcode.com/problems/reverse-integer" target="_blank">Reverse Integer</a> | Medium | [View](./7_Reverse_Integer.c) |
@@ -28,9 +28,9 @@ the problem tracker **sorted in increasing order of question number**.
 | 34 | <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/" target="_blank">Find First and Last Position of Element in Sorted Array</a> | Medium | [View](./34_Find_First_and_Last_Position_of_Elemen_in_Sorted_Array.java) |
 | 35 | <a href="https://leetcode.com/problems/search-insert-position/" target="_blank">Search Insert Position</a> | Medium | [View](./35_Search_Insert_Position.c) |
 | 37 | <a href="https://leetcode.com/problems/sudoku-solver/" target="_blank">Sudoku Solver</a> | Hard | [View](./37_Sudoku_Solver.java) |
-| 41 | <a href="https://leetcode.com/problems/first-missing-positive/" target="_blank">First Missing Positive</a> | Medium | [View](./41_First_Missing_Positive.java) |
-| 51 | <a href="https://leetcode.com/problems/n-queens" target="_blank">N-Queens</a> | Medium | [View](./51_N_Queens.java) |
-| 52 | <a href="https://leetcode.com/problems/n-queens-ii/description/" target="_blank">N-Queens II</a> | Medium | [View](./52_N_Queens_II.java) |
+| 41 | <a href="https://leetcode.com/problems/first-missing-positive/" target="_blank">First Missing Positive</a> | Hard | [View](./41_First_Missing_Positive.java) |
+| 51 | <a href="https://leetcode.com/problems/n-queens" target="_blank">N-Queens</a> | Hard | [View](./51_N_Queens.java) |
+| 52 | <a href="https://leetcode.com/problems/n-queens-ii/description/" target="_blank">N-Queens II</a> | Hard | [View](./52_N_Queens_II.java) |
 | 61 | <a href="https://leetcode.com/problems/rotate-list/" target="_blank">Rotate List</a> | Medium | [View](./61_Rotate_List.java) |
 | 62 | <a href="https://leetcode.com/problems/unique-paths" target="_blank">Unique Paths</a> | Medium | [View](./62_Unique_Paths.java) |
 | 63 | <a href="https://leetcode.com/problems/unique-paths-ii" target="_blank">Unique Paths II</a> | Medium | [View](./63_Unique_Paths_II.java) |
@@ -50,7 +50,7 @@ the problem tracker **sorted in increasing order of question number**.
 | 268 | <a href="https://leetcode.com/problems/missing-number/" target="_blank">Missing Number</a> | Medium | [View](./268_Missing_Number.java) |
 | 275 | <a href="https://leetcode.com/problems/h-index-ii/" target="_blank">H-Index II</a> | Medium | [View](./275_H-Index_II.java) |
 | 278 | <a href="https://leetcode.com/problems/first-bad-version/" target="_blank">First Bad Version</a> | Medium | [View](./278_First_Bad_Version.java) |
-| 410 | <a href="https://leetcode.com/problems/split-array-largest-sum/description/" target="_blank">Split Array Largest Sum</a> | Medium | [View](./410_Split_Array_Largest_Sum.java) |
+| 410 | <a href="https://leetcode.com/problems/split-array-largest-sum/description/" target="_blank">Split Array Largest Sum</a> | Hard | [View](./410_Split_Array_Largest_Sum.java) |
 | 442 | <a href="https://leetcode.com/problems/find-all-duplicates-in-an-array/" target="_blank">Find All Duplicates in an Array</a> | Medium | [View](./442_Find_All_Duplicates_in_an_Array.java) |
 | 448 | <a href="https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/" target="_blank">Find All Numbers Disappeared in an Array</a> | Medium | [View](./448_Find_All_Numbers_Disappeared_in_an_Array.java) |
 | 509 | <a href="https://leetcode.com/problems/fibonacci-number" target="_blank">Fibonacci Number</a> | Medium | [View](./509_Fibonacci_Number.java) |
