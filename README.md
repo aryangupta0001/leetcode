@@ -27,6 +27,7 @@ the problem tracker **sorted in increasing order of question number**.
 | 33 | <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/" target="_blank">Search in Rotated Sorted Array</a> | Medium | [View](./33_Search_in_Rotated_Sorted_Array.java) |
 | 34 | <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/" target="_blank">Find First and Last Position of Element in Sorted Array</a> | Medium | [View](./34_Find_First_and_Last_Position_of_Elemen_in_Sorted_Array.java) |
 | 35 | <a href="https://leetcode.com/problems/search-insert-position/" target="_blank">Search Insert Position</a> | Medium | [View](./35_Search_Insert_Position.c) |
+| 37 | <a href="https://leetcode.com/problems/sudoku-solver/" target="_blank">Sudoku Solver</a> | Hard | [View](./37_Sudoku_Solver.java) |
 | 41 | <a href="https://leetcode.com/problems/first-missing-positive/" target="_blank">First Missing Positive</a> | Medium | [View](./41_First_Missing_Positive.java) |
 | 51 | <a href="https://leetcode.com/problems/n-queens" target="_blank">N-Queens</a> | Medium | [View](./51_N_Queens.java) |
 | 52 | <a href="https://leetcode.com/problems/n-queens-ii/description/" target="_blank">N-Queens II</a> | Medium | [View](./52_N_Queens_II.java) |
