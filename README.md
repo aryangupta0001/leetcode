@@ -39,6 +39,7 @@ the problem tracker **sorted in increasing order of question number**.
 | 74 | <a href="https://leetcode.com/problems/search-a-2d-matrix" target="_blank">Search a 2D Matrix</a> | Medium | [View](./74_Search_a_2D_Matrix.java) |
 | 78 | <a href="https://leetcode.com/problems/subsets" target="_blank">Subsets</a> | Medium | [View](./78_Subsets.java) |
 | 81 | <a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii" target="_blank">Search in Rotated Sorted Array II</a> | Medium | [View](./81_Search_in_Rotated_Sorted_Array_II.java) |
+| 83 | <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/" target="_blank">Remove Duplicates from Sorted List</a> | Easy | [View](./83_Remove_Duplicates_from_Sorted_List.java) |
 | 90 | <a href="https://leetcode.com/problems/subsets-ii/" target="_blank">Subsets II</a> | Medium | [View](./90_Subsets_II.java) |
 | 153 | <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/" target="_blank">Find Minimum in Rotated Sorted Array</a> | Medium | [View](./153_Find_Minimum_in_Rotated_Sorted_Array.java) |
 | 154 | <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/" target="_blank">Find Minimum in Rotated Sorted Array II</a> | Hard | [View](./154_Find_Minimu_in_Rotated_Sorted_Array_II.java) |
