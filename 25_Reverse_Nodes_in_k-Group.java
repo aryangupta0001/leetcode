@@ -23,49 +23,43 @@ class Solution {
 
             ListNode curr = next, temp = next;
 
-            while (i < k - 1) {
+            while (i++ < k - 1) {
                 if (temp.next == null) {
                     last.next = curr;
                     return newHead.next;
                 }
                 temp = temp.next;
-                i++;
             }
 
             next = temp.next;
             temp.next = null;
 
             last = reverse(last, curr);
-
         }
 
         return newHead.next;
     }
 
     public static ListNode reverse(ListNode last, ListNode head) {
-        Deque<ListNode> stack = new ArrayDeque<>();
+        if (head == null || head.next == null)
+            return head;
 
-        while (head != null) {
-            stack.push(head);
-            head = head.next;
+        ListNode prev = head;
+        ListNode cur = head.next;
+        ListNode next = cur.next;
+
+        while (cur != null) {
+            cur.next = prev;
+            prev = cur;
+            cur = next;
+
+            if (next != null)
+                next = next.next;
         }
 
-        ListNode temp = head;
+        last.next = prev;
+        head.next = null;
 
-        if (!stack.isEmpty())
-            temp = stack.pop();
-
-        head = temp;
-
-        while (!stack.isEmpty()) {
-            temp.next = stack.pop();
-            temp = temp.next;
-        }
-
-        temp.next = null;
-        last.next = head;
-        last = temp;
-
-        return temp;
+        return head;
     }
 }
