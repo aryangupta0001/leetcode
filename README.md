@@ -24,6 +24,7 @@ the problem tracker **sorted in increasing order of question number**.
 | 19 | <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/" target="_blank">Remove Nth Node From End of List</a> | Medium | [View](./19_Remove_Nth_Node_From_End_of_List.java) |
 | 21 | <a href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank">Merge Two Sorted Lists </a> | Easy | [View](./21_Merge_Two_Sorted_Lists.java) |
 | 23 | <a href="https://leetcode.com/problems/merge-k-sorted-lists/" target="_blank">Merge k Sorted Lists </a> | Hard | [View](./23_Merge_k_Sorted_Lists.java) |
+| 25 | <a href="https://leetcode.com/problems/reverse-nodes-in-k-group/" target="_blank">Reverse Nodes in k-Group </a> | Hard | [View](./25_Reverse_Nodes_in_k-Group.java) |
 | 26 | <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/" target="_blank">Remove Duplicates from Sorted Array</a> | Medium | [View](./26_Remove_Duplicates_from_Sorted_Array.c) |
 | 27 | <a href="https://leetcode.com/problems/remove-element" target="_blank">Remove Element</a> | Medium | [View](./27_RemoveElement.c) |
 | 28 | <a href="https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/" target="_blank">Find the Index of the First Occurrence in a String</a> | Medium | [View](./28_Find_the_Index_of_the_First_Occurrence_in_a_String.c) |
