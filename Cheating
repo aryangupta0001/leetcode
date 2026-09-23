@@ -1,7 +1,8 @@
-Absolutely. A clearer structure would be:
-Role: Define exactly what the AI agent is responsible for and what it is not responsible for.
-Goals: Specify the desired outcomes and measurable success criteria.
-Constraints: Set explicit boundaries on allowed actions, data access, tools, and permissions. Require confirmation before high-impact or irreversible actions.
-Decision rules: Define when the agent should act autonomously, ask for clarification, or escalate to a human.
-Testing: Run the agent against expected and unexpected scenarios before the pilot.
-This should make its behavior more predictable, auditable, and aligned with the pilot objectives.
+A few things may be causing the unpredictable actions:
+The agent’s permissions may be broader than necessary.
+The constraints may not clearly define prohibited actions.
+Tool access may be enabled without specifying when each tool can be used.
+There may be no confirmation step for sensitive or irreversible actions.
+The agent may lack clear escalation rules when the request is ambiguous.
+Goals may be too broad, allowing the agent to interpret them beyond the intended scope.
+I’d first review permissions, tool access, constraints, and approval rules before redesigning the whole agent.
