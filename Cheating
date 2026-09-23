@@ -1,9 +1,4 @@
-I'd focus on tool access first.
-Review each tool and define:
-What the tool can do.
-When the agent is allowed to use it.
-What conditions must be met before using it.
-Which actions require user confirmation.
-Which actions are completely prohibited.
-When the agent must stop and escalate instead of acting.
-Then apply the least-privilege principle: give the agent only the tools and permissions it actually needs for its role.
+Absolutely. A practical approach is to classify AI systems based on the level of risk they create, such as low, medium, high, or prohibited risk. Higher-risk systems should require stronger controls, including documented risk assessments, human oversight, data protection, security testing, monitoring, audit trails, and clear accountability.
+For governance, we should define clear ownership across AI governance, legal/compliance, cybersecurity, data privacy, and business teams. Every AI system should have an accountable owner and go through an approval process before production use.
+From a cybersecurity perspective, the key controls should cover access control, encryption, secure APIs, protection against prompt injection and data leakage, model/vendor security, logging and monitoring, vulnerability testing, and incident response.
+To make this practical, we could create a simple AI inventory + risk assessment + approval workflow, with additional controls automatically required as the risk level increases. This gives teams a consistent process without applying the same level of governance to every AI use case.
