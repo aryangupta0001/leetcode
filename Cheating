@@ -1,4 +1,17 @@
-Absolutely. A practical approach is to classify AI systems based on the level of risk they create, such as low, medium, high, or prohibited risk. Higher-risk systems should require stronger controls, including documented risk assessments, human oversight, data protection, security testing, monitoring, audit trails, and clear accountability.
-For governance, we should define clear ownership across AI governance, legal/compliance, cybersecurity, data privacy, and business teams. Every AI system should have an accountable owner and go through an approval process before production use.
-From a cybersecurity perspective, the key controls should cover access control, encryption, secure APIs, protection against prompt injection and data leakage, model/vendor security, logging and monitoring, vulnerability testing, and incident response.
-To make this practical, we could create a simple AI inventory + risk assessment + approval workflow, with additional controls automatically required as the risk level increases. This gives teams a consistent process without applying the same level of governance to every AI use case.
+Absolutely. I’d assess an AI system using a risk-based checklist rather than relying on the technology alone.
+Key factors would include:
+Impact: Could an incorrect output affect people, finances, safety, or important business decisions?
+Data: Does it process personal, confidential, financial, or sensitive information?
+Autonomy: Does the system only provide recommendations, or can it take actions automatically?
+Scale: How many users or business processes depend on it?
+Explainability: Do we need to explain or justify its decisions?
+Third-party dependency: Which external models, APIs, datasets, or vendors does it rely on?
+Security exposure: What happens if the model, API, credentials, or prompts are compromised?
+For AI model endpoints and third-party dependencies, I’d prioritize:
+Strong authentication and authorization — least-privilege API access and secure credential management.
+Data protection — encryption in transit/at rest and controls preventing sensitive data from being sent to unauthorized models.
+Vendor/model risk management — assess the provider's security, data-retention, training-use, compliance, and incident-response practices.
+Input/output security — protection against prompt injection, malicious inputs, data leakage, and unsafe outputs.
+Monitoring and logging — track API calls, unusual usage, failures, and security events without unnecessarily logging sensitive prompts.
+Resilience and incident response — rate limits, fallback mechanisms, dependency monitoring, and a plan for compromised or unavailable third-party services.
+The practical output could be a risk scorecard where these factors determine the required approval level and cybersecurity controls before an AI system reaches production.
