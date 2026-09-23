@@ -1,7 +1,1 @@
-I’d keep it simple by using a one-page AI Risk Assessment and Approval Form for every project.
-It could have four sections:
-1. AI System Profile — purpose, business owner, model/provider, data used, users, and whether it can make automated decisions.
-2. Risk Assessment — score factors such as impact, data sensitivity, autonomy, scale, security exposure, and third-party dependencies as Low/Medium/High.
-3. Required Controls — map the resulting risk level to mandatory controls such as access management, encryption, human oversight, security testing, monitoring, and incident response.
-4. Approval & Review — record the risk level, accountable owner, approval decision, exceptions, and review date.
-We could also maintain an AI inventory linking each system to its assessment. That way, teams follow the same lightweight process for every project, while higher-risk systems automatically trigger additional review and controls.
+You’re welcome! I’m glad the framework is useful. Keeping the process simple and consistent should make it much easier for teams to apply AI governance in practice.
