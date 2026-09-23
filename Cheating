@@ -5,3 +5,6 @@ We should also maintain a central prompt library, version-control important prom
 Yes. I think we should provide short, practical training rather than making it overly technical. It could cover AI fundamentals, effective prompting, how to provide the right company context, and the limitations of AI-generated outputs.
 We should also establish clear guidelines around data privacy, approved AI tools, acceptable use cases, and when human review is required. A few hands-on examples using our actual workflows would help employees understand the approach and build confidence.
 Finally, we can provide a simple reference guide with approved prompt templates, best practices, and examples so people have something they can use after the training.
+Before rolling it out, I think we should start with a small pilot group and collect feedback on the training, prompt templates, and workflows. We can use that feedback to refine the guidelines before expanding to the wider team.
+We should also define clear success metrics, such as time saved, output quality, adoption, and error rates. Alongside that, we should have a process for reporting issues and updating prompts or guidelines as our use of AI evolves.
+That would give us a controlled way to launch, measure the impact, and improve the approach over time.
