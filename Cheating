@@ -1,17 +1,7 @@
-Absolutely. I’d assess an AI system using a risk-based checklist rather than relying on the technology alone.
-Key factors would include:
-Impact: Could an incorrect output affect people, finances, safety, or important business decisions?
-Data: Does it process personal, confidential, financial, or sensitive information?
-Autonomy: Does the system only provide recommendations, or can it take actions automatically?
-Scale: How many users or business processes depend on it?
-Explainability: Do we need to explain or justify its decisions?
-Third-party dependency: Which external models, APIs, datasets, or vendors does it rely on?
-Security exposure: What happens if the model, API, credentials, or prompts are compromised?
-For AI model endpoints and third-party dependencies, I’d prioritize:
-Strong authentication and authorization — least-privilege API access and secure credential management.
-Data protection — encryption in transit/at rest and controls preventing sensitive data from being sent to unauthorized models.
-Vendor/model risk management — assess the provider's security, data-retention, training-use, compliance, and incident-response practices.
-Input/output security — protection against prompt injection, malicious inputs, data leakage, and unsafe outputs.
-Monitoring and logging — track API calls, unusual usage, failures, and security events without unnecessarily logging sensitive prompts.
-Resilience and incident response — rate limits, fallback mechanisms, dependency monitoring, and a plan for compromised or unavailable third-party services.
-The practical output could be a risk scorecard where these factors determine the required approval level and cybersecurity controls before an AI system reaches production.
+I’d keep it simple by using a one-page AI Risk Assessment and Approval Form for every project.
+It could have four sections:
+1. AI System Profile — purpose, business owner, model/provider, data used, users, and whether it can make automated decisions.
+2. Risk Assessment — score factors such as impact, data sensitivity, autonomy, scale, security exposure, and third-party dependencies as Low/Medium/High.
+3. Required Controls — map the resulting risk level to mandatory controls such as access management, encryption, human oversight, security testing, monitoring, and incident response.
+4. Approval & Review — record the risk level, accountable owner, approval decision, exceptions, and review date.
+We could also maintain an AI inventory linking each system to its assessment. That way, teams follow the same lightweight process for every project, while higher-risk systems automatically trigger additional review and controls.
