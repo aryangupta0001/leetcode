@@ -1,8 +1,9 @@
-A few things may be causing the unpredictable actions:
-The agent’s permissions may be broader than necessary.
-The constraints may not clearly define prohibited actions.
-Tool access may be enabled without specifying when each tool can be used.
-There may be no confirmation step for sensitive or irreversible actions.
-The agent may lack clear escalation rules when the request is ambiguous.
-Goals may be too broad, allowing the agent to interpret them beyond the intended scope.
-I’d first review permissions, tool access, constraints, and approval rules before redesigning the whole agent.
+I'd focus on tool access first.
+Review each tool and define:
+What the tool can do.
+When the agent is allowed to use it.
+What conditions must be met before using it.
+Which actions require user confirmation.
+Which actions are completely prohibited.
+When the agent must stop and escalate instead of acting.
+Then apply the least-privilege principle: give the agent only the tools and permissions it actually needs for its role.
